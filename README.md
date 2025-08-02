@@ -54,10 +54,26 @@ CERN/
 
 ### Build and run:
 
-```bash
 git clone https://github.com/advikjaiswal/CERN
 cd CERN
 mkdir build && cd build
 cmake ..
 make
 ./TrackSimulator
+
+📌 Next Steps
+Add support for real detector data (via ROOT I/O)
+
+Compare Kalman filter performance to GNN-based approaches
+
+Explore deployment to edge hardware (e.g., FPGA inference)
+
+🙋‍♂️ About Me
+I’m Advik Jaiswal, a physics + AI enthusiast building toward contributing at CERN.
+Feel free to reach out or collaborate: LinkedIn
+
+🧠 Inspiration
+This project is inspired by the real challenges of tracking in collider experiments and guided by conversations with researchers from CERN’s ROOT team, detector R&D teams, and machine learning groups.
+
+📜 License
+MIT License – feel free to fork, build on, or suggest improvements!
