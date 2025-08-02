@@ -37,3 +37,27 @@ This simulator is built to:
 
 ## 🗂️ Project Structure
 
+CERN/
+├── src/
+│ ├── main.cxx # Entry point – generates hits and runs filter
+│ └── TrackFitter.cxx/.h # Core Kalman filter implementation
+├── CMakeLists.txt # Build configuration
+├── diagram.png # Project architecture (optional)
+└── README.md # This file
+
+## 🧪 How to Run
+
+### Requirements:
+- [ROOT](https://root.cern/install/) installed and sourced
+- CMake 3.x
+- C++ compiler (GCC, Clang, etc.)
+
+### Build and run:
+
+```bash
+git clone https://github.com/advikjaiswal/CERN
+cd CERN
+mkdir build && cd build
+cmake ..
+make
+./TrackSimulator
